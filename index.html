@@ -9,11 +9,23 @@
 </head>
 <body>
    <section class="gray-background">
-       <p class= "name-tag">
-           <strong class= "HELLO">HELLO</strong>
-           <span class= "my-name-is">my name is</span>
-           <em class= "your-name-here">Peter Sargent</em>
-       </p>
+        <p class= "name-tag" id= "nametag">
+            <strong class= "HELLO">HELLO</strong>
+            <span class= "my-name-is">my name is</span>
+            <em class= "your-name-here" id= "your-name-here">[your name here]</em>
+            <span class= "your-pronouns-here" id= "your-pronouns-here">[pronouns]</span>
+        </p>
+
+        <p class= "NAME-button" id= "NAME-button">
+            <input id= "name-input">
+            <button id= "change-your-name-here">Add Your Name</button>
+        </p>
+        <p class= "PRONOUN-button" id= "PRONOUN-button">
+            <input id= "pronoun-input">
+            <button id= "change-your-pronouns-here">Add Your Preferred Pronouns</button>
+        </p>
    </section>
+
+   <script type= "module" src= "app.js"></script>
 </body>
 </html>
